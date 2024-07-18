@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK ITM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero-section {
+            background-image: url(smkitm.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .feature-card {
+            transition: transform 0.3s;
+        }
+        .feature-card:hover {
+            transform: scale(1.05);
+        }
+        .testimonial {
+            background: #f8f9fa;
+            border-left: 5px solid #007bff;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        .event-card {
+            transition: box-shadow 0.3s;
+        }
+        .event-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .responsive-iframe {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+        }
+        .responsive-iframe iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SMK ITM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profileSection">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallerySection">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactSection">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn bg-warning me-2" href="#ppdbSection">PPDB</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section p-5 rounded-lg m-3 text-center">
+        <h1 class="display-4">Selamat Datang di SMK ITM</h1>
+        <p class="lead">Pendidikan berkualitas untuk masa depan yang cerah.</p>
+        <hr class="my-4">
+        <p>Menyediakan program keahlian yang relevan dengan kebutuhan industri dan dunia kerja.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Pelajari lebih lanjut</a>
+    </div>
+
+    <!-- About Section -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="">Tentang Kami</h2>
+                <p>SMK Maulana berkomitmen untuk memberikan pendidikan vokasi yang terbaik dengan fasilitas lengkap dan kurikulum yang terupdate sesuai dengan perkembangan zaman.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="responsive-iframe">
+                    <iframe src="c:\Users\LENOVO\Videos\Vid0718.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Keunggulan Kami</h2>
+        <div class="row text-center">
+            <!-- Feature 1 -->
+            <div class="col-lg-4 mb-3">
+                <div class="card feature-card">
+                    <img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Laboratorium Canggih">
+                    <div class="card-body">
+                        <h5 class="card-title">Laboratorium Canggih</h5>
+                        <p class="card-text">Dilengkapi dengan peralatan modern untuk mendukung praktik siswa.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 2 -->
+            <div class="col-lg-4 mb-3">
+                <div class="card feature-card">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Guru Profesional">
+                    <div class="card-body">
+                        <h5 class="card-title">Guru Profesional</h5>
+                        <p class="card-text">Tim pengajar berpengalaman di bidangnya masing-masing.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 3 -->
+            <div class="col-lg-4 mb-3">
+                <div class="card feature-card">
+                    <img src="https://images.unsplash.com/photo-1577880216142-8549e9488dad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Kerjasama dengan Industri">
+                    <div class="card-body">
+                        <h5 class="card-title">Kerjasama dengan Industri</h5>
+                        <p class="card-text">Menyediakan program magang dan kerjasama dengan berbagai industri terkemuka.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more features here -->
+            <!-- Feature 4 (New Feature) -->
+            <div class="col-lg-4 mb-3">
+                <div class="card feature-card">
+                    <img src="https://images.unsplash.com/photo-1581092580523-dc6a73682f4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Ekstrakurikuler Menarik">
+                    <div class="card-body">
+                        <h5 class="card-title">Ekstrakurikuler Menarik</h5>
+                        <p class="card-text">Berbagai pilihan kegiatan ekstrakurikuler untuk mengembangkan bakat dan minat siswa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <a class="btn btn-primary mt-4" href="#">Lihat Lebih Banyak</a>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Testimoni Alumni</h2>
+        <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <blockquote class="testimonial">
+                        <p class="mb-0">"Pendidikan di SMK ITM telah membekali saya dengan keterampilan yang relevan untuk industri."</p><br>
+                        <footer class="blockquote-footer">Alumni 1, <cite title="Source Title">Sistem Informasi</cite></footer>
+                    </blockquote>
+                </div>
+    
+                <div class="carousel-item">
+                    <blockquote class="testimonial">
+                        <p class="mb-0">"SMK ITM memberikan pengalaman belajar yang luar biasa dengan dukungan fasilitas yang lengkap."</p><br>
+                        <footer class="blockquote-footer">Alumni 2, <cite title="Source Title">Teknik Informatika</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+
+    <!-- Gallery Section -->
+    <div id="gallerySection" class="container my-5">
+        <h2 class="text-center mb-4">Galeri Sekolah</h2>
+        <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="foto.jpeg" class="d-block w-100" alt="Foto Sekolah 1">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contactSection" class="container my-5">
+        <h2 class="text-center mb-4">Kontak Kami</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Tulis pesan Anda"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- PPDB Section -->
+    <div id="ppdbSection" class="container my-5">
+        <h2 class="text-center mb-4">Penerimaan Peserta Didik Baru (PPDB)</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="accordion" id="ppdbAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Syarat Pendaftaran
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#ppdbAccordion">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Salinan Akta Kelahiran</li>
+                                    <li>Salinan Kartu Keluarga</li>
+                                    <li>Pas Foto 3x4 (3 lembar)</li>
+                                    <li>Salinan Raport Semester Terakhir</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Jadwal Pendaftaran
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#ppdbAccordion">
+                            <div class="accordion-body">
+                                <p>Pendaftaran dibuka mulai tanggal 1 Juli hingga 31 Juli. Tes masuk akan dilakukan pada tanggal 5 Agustus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Cara Pendaftaran
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#ppdbAccordion">
+                            <div class="accordion-body">
+                                <ol>
+                                    <li>Isi formulir pendaftaran online di <a href="https://ppdb.smksmp.com">link ini</a>.</li>
+                                    <li>Unggah dokumen persyaratan.</li>
+                                    <li>Ikuti tes masuk pada tanggal yang ditentukan.</li>
+                                    <li>Tunggu pengumuman hasil seleksi.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a class="btn btn-primary" href="https://ppdb.smksmp.com">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-primary text-white text-center py-3 mt-4">
+        <p class="mb-0">&copy; 2023 SMK Maulana. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
